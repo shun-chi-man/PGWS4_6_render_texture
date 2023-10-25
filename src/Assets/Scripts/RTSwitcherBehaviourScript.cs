@@ -40,8 +40,8 @@ public class RTSwitcherBehaviourScript : MonoBehaviour
         renderTextureCamera.targetTexture = write_texture;
 
         // Read
-        if (sampleMaterial1) sampleMaterial1.SetTexture("Texture2D_RT", read_texture);
-        if (sampleMaterial2) sampleMaterial2.SetTexture("Texture2D_RT", read_texture);
-        if (sampleMaterial3) sampleMaterial3.SetTexture("Texture2D_RT", read_texture);
+        if (sampleMaterial1) sampleMaterial1.SetTexture("_Texture2D_RT", read_texture);
+        if (sampleMaterial2) sampleMaterial2.SetTexture("_Texture2D_RT", read_texture);
+        if (sampleMaterial3) sampleMaterial3.SetTexture("_Texture2D_RT", read_texture);
     }
 }
