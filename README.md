@@ -12,14 +12,16 @@
 ![結果画像4](result4.gif)
 
 ## 自分なりにかっこいいシーン
-![結果画像](result.gif)
 
-![シェーダグラフ](node_graph.png)
+![wave_1](https://github.com/shun-chi-man/PGWS4_6_render_texture/assets/146050674/2b2e74dc-eb9d-4f71-b62c-62368e7d39b8)
+
+![Water ShaderGraph2](https://github.com/shun-chi-man/PGWS4_6_render_texture/assets/146050674/d4ac9d69-dd07-4267-a2f3-12133321d561)
+
 
 # 自分なりに変更した点
--
--
--
+- SubdivPlaneにアタッチしたシェーダーグラフに色の変更を加え、水面と波のような表現にしました。
+- Sphereの軌道を円を描くような運動に変えました。
+- Sphereの動きと波紋の様子はVisualizedQuadのワイプの方に授業内容と同じ赤色の円と黄色の波紋で出るように残しました。
 
 
 # 進め方
